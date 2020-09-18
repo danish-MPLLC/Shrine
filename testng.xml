@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite" >
+<test name="ShrineFlutter" >
+    <classes>
+        <class name="TestCases.FlutterGallery"></class>
+    </classes>
+   
+</test>
+
+</suite>

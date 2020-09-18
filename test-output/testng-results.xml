@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54854" started-at="2020-09-14T21:25:13Z" finished-at="2020-09-14T21:26:08Z">
+  <suite name="My Suite" duration-ms="45016" started-at="2020-09-18T16:12:18Z" finished-at="2020-09-18T16:13:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54854" started-at="2020-09-14T21:25:13Z" finished-at="2020-09-14T21:26:08Z">
+    <test name="ShrineFlutter" duration-ms="45016" started-at="2020-09-18T16:12:18Z" finished-at="2020-09-18T16:13:03Z">
       <class name="TestCases.FlutterGallery">
-        <test-method status="FAIL" signature="TestA()[pri:0, instance:TestCases.FlutterGallery@1753acfe]" name="TestA" duration-ms="54734" started-at="2020-09-14T21:25:13Z" finished-at="2020-09-14T21:26:08Z">
+        <test-method status="FAIL" signature="TestA()[pri:0, instance:TestCases.FlutterGallery@1753acfe]" name="TestA" duration-ms="44839" started-at="2020-09-18T16:12:18Z" finished-at="2020-09-18T16:13:03Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -16,8 +16,8 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25
 System info: host: 'DESKTOP-D8ETVI2', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: io.flutter.demo.gallery.Mai..., appPackage: io.flutter.demo.gallery, databaseEnabled: false, desired: {appActivity: io.flutter.demo.gallery.Mai..., appPackage: io.flutter.demo.gallery, deviceName: RZ8M32HFY4N, fullReset: false, noReset: true, platformName: android, platformVersion: 10, udid: RZ8M32HFY4N}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G970F, deviceName: RZ8M32HFY4N, deviceScreenDensity: 480, deviceScreenSize: 1080x2280, deviceUDID: RZ8M32HFY4N, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 117, takesScreenshot: true, udid: RZ8M32HFY4N, viewportRect: {height: 2047, left: 0, top: 117, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 6c85fa2e-f11d-47f3-a708-93251f268279
-*** Element info: {Using=-android uiautomator, value=new UiSelector().descriptionContains("Walter")}]]>
+Session ID: 23139e47-0ed5-4ebd-8be2-dc5eb3641297
+*** Element info: {Using=-android uiautomator, value=new UiSelector().description("CLOTHING")}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -26,8 +26,8 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25
 System info: host: 'DESKTOP-D8ETVI2', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: io.flutter.demo.gallery.Mai..., appPackage: io.flutter.demo.gallery, databaseEnabled: false, desired: {appActivity: io.flutter.demo.gallery.Mai..., appPackage: io.flutter.demo.gallery, deviceName: RZ8M32HFY4N, fullReset: false, noReset: true, platformName: android, platformVersion: 10, udid: RZ8M32HFY4N}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G970F, deviceName: RZ8M32HFY4N, deviceScreenDensity: 480, deviceScreenSize: 1080x2280, deviceUDID: RZ8M32HFY4N, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 117, takesScreenshot: true, udid: RZ8M32HFY4N, viewportRect: {height: 2047, left: 0, top: 117, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 6c85fa2e-f11d-47f3-a708-93251f268279
-*** Element info: {Using=-android uiautomator, value=new UiSelector().descriptionContains("Walter")}
+Session ID: 23139e47-0ed5-4ebd-8be2-dc5eb3641297
+*** Element info: {Using=-android uiautomator, value=new UiSelector().description("CLOTHING")}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -51,7 +51,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
 at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at TestCases.FlutterGallery.TestA(FlutterGallery.java:34)
+at TestCases.FlutterGallery.TestA(FlutterGallery.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -84,6 +84,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- TestA -->
       </class> <!-- TestCases.FlutterGallery -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ShrineFlutter -->
+  </suite> <!-- My Suite -->
 </testng-results>

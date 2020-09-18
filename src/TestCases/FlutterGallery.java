@@ -13,8 +13,9 @@ import util.MobileTouch;
 public class FlutterGallery extends Base{
 	
 	@Test
-	public void TestA() throws InterruptedException{
-		startUp("RZ8M32HFY4N");
+	public void TestA() throws InterruptedException
+	{
+		startUp("RZ8M32HFY4N"); //Enter the Android phone's UDID here before executing the test
 		wait(3);
 		
 		AndroidElement e=  dr.findElement(MobileBy.AndroidUIAutomator("new UiSelector().descriptionContains(\"Shrine\")"));
